@@ -1,11 +1,27 @@
-### Permissions and chmod
-$
+### Linux Help 
+
+#### General Help
 
 As with "all" Linux related questions, get help from the help option (-h --h -help --help) or the manual: 
 ```Linux
-chmod --help
-man chmod
+<command> --help
+man <command>
+## there is even a manual for the manual
+man man
+# scroll down with <enter> or leave with <q> 
 ```
+
+#### Permissions and chmod
+
+It is important to set the permissions for group folders and subfolder. Here a short overview and below some more details.  
+
+```Linux
+mkdir /scicore/home/holmp/GROUP/test 
+# d **rwx** r-x r-x  2 walser   holmp   512 Apr 29 10:50 test/
+chmod 776 /scicore/home/holmp/GROUP/test
+# d **rwx rwx rw-**  2 walser   holmp   512 Apr 29 10:50 test/
+```
+
 
 d|rwx|r-x|r-x > directory|your permissions|group permission|users permission
 
