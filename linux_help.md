@@ -17,5 +17,5 @@ If you create a new folder only you will be able to write (change) anything in t
 
 ```Linux
 mkdir /scicore/home/holmp/GROUP/test 
-d__rwx__r-xr-x  2 walser   holmp   512 Apr 29 10:50 test/
+d**rwx**r-xr-x  2 walser   holmp   512 Apr 29 10:50 test/
 ```
