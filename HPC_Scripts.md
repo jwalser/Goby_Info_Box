@@ -25,8 +25,8 @@ soon
 #$ -pe smp 16
 #$ -l membycore=14G
 #$ -l runtime=120:00:00
-#$ -o /scicore/home/holmp/GROUP/01_Gopy_RNAseq/z_log/trinity_qsub_across.stdout
-#$ -e /scicore/home/holmp/GROUP/01_Gopy_RNAseq/z_log/trinity_qsub_across.error
+#$ -o /scicore/home/holmp/GROUP/01_Goby_RNAseq/z_log/trinity_qsub_across.stdout
+#$ -e /scicore/home/holmp/GROUP/01_Goby_RNAseq/z_log/trinity_qsub_across.error
 #$ -m beas -M jean-claude.walser@unibas.ch
 
 ## --------------------------
