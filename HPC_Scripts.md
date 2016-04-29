@@ -4,8 +4,12 @@
 2. Transcriptome assembly with Trinity
 3. Read Mapping with BWA 
 
+### (1) Quality Filerting with Prinseq
+```HPC
+soon
+```
 
-### (2) Trinity Transcriptome Assembly
+### (2) De-novo Transcriptome Assembly with Trinity
 
 ```HPC
 ### =================================
@@ -21,8 +25,8 @@
 #$ -pe smp 16
 #$ -l membycore=14G
 #$ -l runtime=120:00:00
-#$ -o /scicore/home/holmp/GROUP/1_Gopy_RNAseq/z_log/trinity_qsub_across.stdout
-#$ -e /scicore/home/holmp/GROUP/1_Gopy_RNAseq/z_log/trinity_qsub_across.error
+#$ -o /scicore/home/holmp/GROUP/01_Gopy_RNAseq/z_log/trinity_qsub_across.stdout
+#$ -e /scicore/home/holmp/GROUP/01_Gopy_RNAseq/z_log/trinity_qsub_across.error
 #$ -m beas -M jean-claude.walser@unibas.ch
 
 ## --------------------------
@@ -127,4 +131,9 @@ $N50 -i $gd/c_assembly/trinity/Trinity.fasta -o $gd/c_assembly/trinity/Trinity.s
 infoseq -only -length -pgc $gd/c_assembly/trinity/Trinity.fasta | sed '1d' > $gd/c_assembly/trinity/Trinity_l_gc.txt
 
 date "+End Script: %T %d/%m/%Y"
+```
+
+### (3) Read Mapping with BWA
+```HPC
+soon
 ```
