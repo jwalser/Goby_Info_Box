@@ -9,9 +9,9 @@ man chmod
 
 d|rwx|r-x|r-x > directory|your permissions|group permission|users permission
 
-(r) read
-(w) write
-(x) execute
+(r) read<br>
+(w) write<br>
+(x) execute<br>
 
 Only the own can change permissions. 
 
