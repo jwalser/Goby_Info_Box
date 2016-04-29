@@ -19,7 +19,9 @@ The following rules should be applied when using the GROUP directory:
 
 ---
 #### 01_Goby_RNAseq
+
 RNAseq data analysis file including the draft de-novo transcriptome. The raw files are missing but avaialbe on request.
+
 ---
 #### 02_Goby_Methylation
 ---
