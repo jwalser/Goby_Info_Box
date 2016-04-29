@@ -16,11 +16,11 @@ Most of the "login nodes" are 16 core machines. If you want to run something wit
 
 #### Environment Variable
 
-$HOME     # home directory
-$TMPDIR   # scratch storage
-$USER     # name user
-$PATH     # list of paths
-$HOSTNAME # name of computer/server
+  * $HOME     # home directory
+  * $TMPDIR   # scratch storage
+  * $USER     # name user
+  * $PATH     # list of paths
+  * $HOSTNAME # name of computer/server
 
 #### ....
 
