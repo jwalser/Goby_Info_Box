@@ -1,7 +1,10 @@
-#### Goby_Info_Box
+Goby_Info_Box
+___
+
 
 This repository should help the Goby-Group in many aspects of there resarch.
----
+
+___
 
 HPC
 ----
