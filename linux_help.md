@@ -35,16 +35,18 @@ mkdir -m 776 -p /scicore/home/holmp/GROUP/test
 
 ##### Understanding Permissions
 
-d|rwx|r-x|r-x > directory|your permissions|group permission|users/all permission
+Each file and directory has permissions (read, write, and execute) for each level (user, group, others). If you do a listing (ls -l) you will see the permissions:
 
-(r) read<br>
-(w) write<br>
-(x) execute<br>
+```Example
+d | rwx | r-x | r-x > directory|your permissions|group permission|users/all permission
+```
+
+The three digits in chmod corresponds to one of the three permission triplets (user, group, others). Every permission bit in a triplet corresponds to a value: 4 for read (r), 2 for write (w), 1 for execute (x), and zero for -.  
 
 | Level         | Permission      | octal |
 | ------------- |:---------------:| -----:|
 | Triplet for u | rwx > 4 + 2 + 1 |  = 7  |
-| Triplet for g | r-x > 4 + 0 + 1 |  = 5  |
-| Tripler for o | r-x > 4 + 0 + 1 |  = 5  |
-| Compined      |                 |  755  |
+| Triplet for g | r-x > 4 + 2 + 1 |  = 7  |
+| Tripler for o | r-x > 4 + 2 + 0 |  = 6  |
+| Compined      |                 |  776  |
 
