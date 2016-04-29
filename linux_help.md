@@ -13,12 +13,12 @@ d|rwx|r-x|r-x > directory|your permissions|group permission|users permission
 (w) write<br>
 (x) execute<br>
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| Triplet for u | rwx | 4 + 2 + 1 = 7
-| Triplet for g | r-x | 4 + 0 + 1 = 5
-| Tripler for o | r-x | 4 + 0 + 1 = 5
-| Compined      |                    755
+| Level         | Permission      | octal |
+| ------------- |:---------------:| -----:|
+| Triplet for u | rwx > 4 + 2 + 1 |  = 7  |
+| Triplet for g | r-x > 4 + 0 + 1 |  = 5  |
+| Tripler for o | r-x > 4 + 0 + 1 |  = 5  |
+| Compined                           755  |
 
 
 
