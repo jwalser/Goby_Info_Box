@@ -13,17 +13,29 @@ man man
 
 #### Permissions and chmod
 
-It is important to set the permissions for group folders and subfolder. Here a short overview and below some more details.  
+It is important to set the permissions for group folders and subfolder. Here a short overview and below some more details. 
+
+If you create a new folder only you will be able to write (change) anything in the folder or the folder itself. Only the owner (and of course the admin) can change permissions by default.
 
 ```Linux
-mkdir /scicore/home/holmp/GROUP/test 
+mkdir -p /scicore/home/holmp/GROUP/test/test2/
 # d **rwx** r-x r-x  2 walser   holmp   512 Apr 29 10:50 test/
 chmod 776 /scicore/home/holmp/GROUP/test
 # d **rwx rwx rw-**  2 walser   holmp   512 Apr 29 10:50 test/
+# d **rwx** r-x r-x  2 walser   holmp   512 Apr 29 10:50 test/test2/
+chmod -R 776 /scicore/home/holmp/GROUP/test ## change files and directories
+# d **rwx rwx rw-**  2 walser   holmp   512 Apr 29 10:50 test/
+# d **rwx rwx rw-**  2 walser   holmp   512 Apr 29 10:50 test/test2
+```
+There is a short cut ...
+
+```Linux
+mkdir -m 776 -p /scicore/home/holmp/GROUP/test
 ```
 
+##### Understanding Permissions
 
-d|rwx|r-x|r-x > directory|your permissions|group permission|users permission
+d|rwx|r-x|r-x > directory|your permissions|group permission|users/all permission
 
 (r) read<br>
 (w) write<br>
@@ -36,12 +48,3 @@ d|rwx|r-x|r-x > directory|your permissions|group permission|users permission
 | Tripler for o | r-x > 4 + 0 + 1 |  = 5  |
 | Compined      |                 |  755  |
 
-
-If you create a new folder only you will be able to write (change) anything in the folder or the folder itself. Only the owner (and of course the admin) can change permissions by default.
-
-```Linux
-mkdir /scicore/home/holmp/GROUP/test 
-# d **rwx** r-x r-x  2 walser   holmp   512 Apr 29 10:50 test/
-chmod 776 /scicore/home/holmp/GROUP/test
-# d **rwx rwx rw-**  2 walser   holmp   512 Apr 29 10:50 test/
-```
