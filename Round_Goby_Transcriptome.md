@@ -1,11 +1,16 @@
 #### Round Goby Transcriptome
 
 ---
-Data: Illumina paired-end reads
-Tissue: 
+Data: 444,944,147 Illumina 81bp paired-end reads<br>
+Number of RNAseq libraries: 15 
+Tissue: embryonic tissue (1 cell to 64 cell stage plus a few larva cells)
 ___
 
 #### Trancriptome V1 (160507)
+
+a) Quality control with FastQC (v0.11.2)
+b) Quality filtering with PrinSeq (v0.20.4)
+c) De novo assembly with Trinity (v2.1.1)
 
 ```
 Total sequences              176,474
@@ -18,14 +23,28 @@ N25 length                     3,541
 N50 length                     1,787
 N75 length                       407
 N90 length                       153
-As                               26.9 %
-Ts                               26.6 %
-Gs                               23.5 %
-Cs                               23.0 %
-(A + T)s                         53.5 %
-(G + C)s                         46.5 %
-Ns                                0.0 %
+As                               26.9%
+Ts                               26.6%
+Gs                               23.5%
+Cs                               23.0%
+(A + T)s                         53.5%
+(G + C)s                         46.5%
+Ns                                0.0%
 ```
----
 
-https://cloud.githubusercontent.com/assets/17850234/16342603/5425fefa-3a33-11e6-99f5-3b14807041e5.jpeg
+d) Transdecoder was used to find and extract possible ORFs with a minimum length of 150nt (50aa).
+e) De-replication with PrinSeq (v0.20.4)
+f) Clustering with USEARCH (v8.1.1812_i86linux64)
+g) Completness estimate with BUSCO (v1.1b1)
+
+```
+Number of total ORFs          265,080
+Unique ORFs                   204,608 (77.2%)
+Clustered (id:100%, cov:100%) 128,956 (48.6%)
+Clustered (id:99%, cov:100%)  125,495 (47.3%)
+Clustered (id:98%, cov:100%)  122,843 (46.3%)
+Completness                        74.6%
+```
+
+
+
