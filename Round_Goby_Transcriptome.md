@@ -8,9 +8,9 @@ ___
 
 #### Trancriptome V1 (160507)
 
-a) Quality control with FastQC (v0.11.2)<br>
-b) Quality filtering with PrinSeq (v0.20.4)<br>
-c) De novo assembly with Trinity (v2.1.1)<br>
+- Quality control with FastQC (v0.11.2)<br>
+- Quality filtering with PrinSeq (v0.20.4)<br>
+- De novo assembly with Trinity (v2.1.1)<br>
 
 ```
 Total sequences              176,474
