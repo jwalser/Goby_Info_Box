@@ -11,11 +11,4 @@ RNAseq data analysis file including the draft de-novo transcriptome. The raw fil
 ---
 #### 02_Goby_Methylation
 ---
-#### 03 | Round Goby Genome
-
-Assembly V1 ()
-
-Assembly V2 ()
-
----
 
