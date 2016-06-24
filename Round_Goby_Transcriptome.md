@@ -2,15 +2,15 @@
 
 ---
 Data: 444,944,147 Illumina 81bp paired-end reads<br>
-Number of RNAseq libraries: 15 
-Tissue: embryonic tissue (1 cell to 64 cell stage plus a few larva cells)
+Number of RNAseq libraries: 15<br>
+Tissue: embryonic tissue (1 cell to 64 cell stage plus a few larva cells)<br>
 ___
 
 #### Trancriptome V1 (160507)
 
-a) Quality control with FastQC (v0.11.2)
-b) Quality filtering with PrinSeq (v0.20.4)
-c) De novo assembly with Trinity (v2.1.1)
+a) Quality control with FastQC (v0.11.2)<br>
+b) Quality filtering with PrinSeq (v0.20.4)<br>
+c) De novo assembly with Trinity (v2.1.1)<br>
 
 ```
 Total sequences              176,474
