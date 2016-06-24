@@ -1,6 +1,6 @@
-#### 03 | Round Goby Genome
+### Round Goby Genome
 
-Assembly V1 ()
+#### Assembly V1 ()
 
 ```HPC
 soon
@@ -8,7 +8,7 @@ soon
 
 ___
 
-### Assembly V2 ()
+#### Assembly V2 (160614)
 
 ```
 Number of sequences         1,364        
