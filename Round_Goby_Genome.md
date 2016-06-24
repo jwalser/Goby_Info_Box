@@ -17,10 +17,14 @@ N90                         269,424
 %GC (mean/median)           42.21 / 42.05      
 ```
 
-```
 Mitochondrial Genome:
-Total length                9,636,153 (average length of mitochondrial genome in fish: 16.7Mb (n=2130 - source: http://www.ncbi.nlm.nih.gov/genome/))
+```
+Total length                9,636,153 (~9.6Mb)
 %GC                         41.54 (average length of mitochondrial genome in fish: 16.7Mb (n=2130)
+
+***Mitochondrial fish genomes (http://www.ncbi.nlm.nih.gov/genome/)***
+Average length: 16.7Mb [16.5-16.7] (n=2130)
+Average GC content: 44.6% [42.8-46.2] (n=2130)
 ```
 
 
