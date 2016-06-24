@@ -8,7 +8,7 @@ ___
 
 #### Trancriptome V1 (160507)
 
-- Quality control with FastQC (v0.11.2)<br>
+A. Quality control with FastQC (v0.11.2)<br>
 - Quality filtering with PrinSeq (v0.20.4)<br>
 - De novo assembly with Trinity (v2.1.1)<br>
 
@@ -32,10 +32,10 @@ Cs                               23.0%
 Ns                                0.0%
 ```
 
-d) Transdecoder was used to find and extract possible ORFs with a minimum length of 150nt (50aa).
-e) De-replication with PrinSeq (v0.20.4)
-f) Clustering with USEARCH (v8.1.1812_i86linux64)
-g) Completness estimate with BUSCO (v1.1b1)
+- Transdecoder was used to find and extract possible ORFs with a minimum length of 150nt (50aa).
+- De-replication with PrinSeq (v0.20.4)
+- Clustering with USEARCH (v8.1.1812_i86linux64)
+- Completness estimate with BUSCO (v1.1b1)
 
 ```
 Number of total ORFs          265,080
