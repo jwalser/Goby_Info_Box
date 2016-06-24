@@ -6,10 +6,10 @@ Assembly V1 ()
 soon
 ```
 
+___
 
-Assembly V2 ()
+### Assembly V2 ()
 
----
 ```
 Number of sequences         1,364        
 Total length (>= 0 bp)      1,003,738,563 (~1Gb)
