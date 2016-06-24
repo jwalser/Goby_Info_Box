@@ -1,3 +1,3 @@
-#### 01_Goby_RNAseq
+#### Round Goby Transcriptome
 
-RNAseq data analysis file including the draft de-novo transcriptome. The raw files are missing but avaialbe on request.
+
