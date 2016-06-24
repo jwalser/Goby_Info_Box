@@ -9,7 +9,7 @@ ___
 #### Trancriptome V1 (160507)
 
 1. Quality control with FastQC (v0.11.2)
-2.Quality filtering with PrinSeq (v0.20.4)
+2. Quality filtering with PrinSeq (v0.20.4)
 3. De novo assembly with Trinity (v2.1.1)
 
 ```
