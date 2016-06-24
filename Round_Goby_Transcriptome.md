@@ -3,7 +3,7 @@
 ---
 Data: 444,944,147 Illumina 81bp paired-end reads<br>
 Number of RNAseq libraries: 15<br>
-Tissue: embryonic tissue (1 cell to 64 cell stage plus a few larva cells)<br>
+Tissue: embryonic tissue (1- to 64-cell stage plus a few larva cells)<br>
 Transcriptome file: RoundGoby_Transcritome_Assembly_V1_160507.fasta
 ORFs file name: RoundGoby_Transcritome_Assembly_V1_160507_ORFs_c98.fasta
 ___
