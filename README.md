@@ -1,6 +1,6 @@
-### Goby_Info_Box
+### Round Goby Info Box ###
 
-This repository should help the Goby-Group in many aspects of there resarch.
+This repository should help the Round Goby enthusiasts in many aspects of there research.
 
 ___
 
@@ -50,6 +50,11 @@ RNAseq data analysis file including the draft de-novo transcriptome. The raw fil
 ---
 #### 02_Goby_Methylation
 ---
-#### 03_Goby_Genome
+#### 03 | Round Goby Genome
+
+Assembly V1 ()
+
+Assembly V2 ()
+
 ---
 
