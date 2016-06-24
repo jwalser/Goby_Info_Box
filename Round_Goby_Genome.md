@@ -20,7 +20,7 @@ Note:
 ***N50*** statistic defines assembly quality. Given a set of contigs, each with its own length, the N50 length is defined as the shortest sequence length at 50% of the genome. When comparing N50 values from different assemblies, the assembly sizes must be the same size in order for N50 to be meaningful (source: https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics).
 
 
-#### Mitochondrial Sequence:
+#### Mitochondrial Sequence
 ```
 Total length                9,636,153 (~9.6Mb)
 GC                          41.54%
@@ -30,7 +30,16 @@ Note:
 Average length: 16.7Mb [16.5-16.7] (n=2130)<br>
 Average GC content: 44.6% [42.8-46.2] (n=2130)
 
-#### Goby Tools
+#### File Description
+
+Genome (main): RoundGoby_Haploid_Assembly_V2_160614.fasta - haploid assembly, cleaned of contained contigs
+Genome (small): RoundGoby_Haploid_Assembly_V2_160614_smaller12k.fasta - contigs <20k and module overlaps
+MT Genome: RoundGoby_MT_Genome.fasta - contig with COI 
+
+#### Goby Genome Tools
+
+WebTools - http://albiorix.bioenv.gu.se
 
 Blast-Server: http://albiorix.bioenv.gu.se (Blast server for Sand and Round Goby)
 
+Genome Annotation - WebApollo : http://albiorix.bioenv.gu.se:8080/apollo-2.0.2/annotator/index
