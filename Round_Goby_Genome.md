@@ -13,8 +13,8 @@ NG50                        2,824,298
 N75                         904,059
 NG75                        927,863
 N90                         269,424
-%GC range                   34.24 - 52.76
-%GC (mean/median)           42.21 / 42.05      
+GC range                    34.24% - 52.76%
+GC (mean/median)            42.21% / 42.05%      
 ```
 Note:
 ***N50*** statistic defines assembly quality. Given a set of contigs, each with its own length, the N50 length is defined as the shortest sequence length at 50% of the genome. When comparing N50 values from different assemblies, the assembly sizes must be the same size in order for N50 to be meaningful (source: https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics).
@@ -23,7 +23,7 @@ Note:
 #### Mitochondrial Sequence:
 ```
 Total length                9,636,153 (~9.6Mb)
-%GC                         41.54 (average length of mitochondrial genome in fish: 16.7Mb (n=2130)
+GC                          41.54%
 ```
 Note:
 ***Mitochondrial fish genomes*** (http://www.ncbi.nlm.nih.gov/genome/)<br>
